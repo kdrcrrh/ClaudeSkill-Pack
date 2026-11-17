@@ -1,0 +1,37 @@
+{
+  "name": "claude-haritasi",
+  "owner": {
+    "name": "kdrcrrh"
+  },
+  "metadata": {
+    "description": "Claude Haritası: kategori kategori skill paketleri / skill bundles by category",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "tasarim",
+      "source": "./plugins/tasarim",
+      "description": "Tasarım / Design: frontend-design, canvas-design, theme-factory, algorithmic-art, brand-guidelines, ui-ux-pro-max, design-taste-frontend"
+    },
+    {
+      "name": "video",
+      "source": "./plugins/video",
+      "description": "Video & Ses / Video & Audio: hyperframes, hyperframes-cli, hyperframes-registry, ghost-editor, shorts"
+    },
+    {
+      "name": "yazi",
+      "source": "./plugins/yazi",
+      "description": "Yazı & İçerik / Writing & Content: voice-dna, prompt-master"
+    },
+    {
+      "name": "kodlama",
+      "source": "./plugins/kodlama",
+      "description": "Kodlama / Coding: karpathy-guidelines"
+    },
+    {
+      "name": "verimlilik",
+      "source": "./plugins/verimlilik",
+      "description": "Verimlilik / Productivity: harita, find-skills"
+    }
+  ]
+}
