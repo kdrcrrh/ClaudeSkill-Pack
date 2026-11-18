@@ -21,6 +21,7 @@ Open-source skills for design, video, writing, coding and productivity, gathered
 | ✍️ **yazi** | voice-dna, prompt-master | ✓ |
 | 💻 **kodlama** | karpathy-guidelines | ✓ |
 | ⚡ **verimlilik** | harita, find-skills | ✓ |
+| 🤖 **ajanlar** | The Agency: 283 uzman alt ajan (tasarım, yazılım, pazarlama, satış, test, güvenlik…) / 283 specialist subagents | — (bilgisayar / desktop) |
 
 Her skill'in sahibi, lisansı ve bağlantısı: **[TESEKKURLER.md](TESEKKURLER.md)** · Owner, licence and link for every skill: **[TESEKKURLER.md](TESEKKURLER.md)**
 Ayrıntılı kılavuz (PDF, TR+EN): **[docs/Claude-Haritasi.pdf](docs/Claude-Haritasi.pdf)** · Full guide (PDF, TR+EN)
@@ -40,7 +41,7 @@ Claude Code'a şunu yaz:
 /plugin marketplace add kdrcrrh/claude-haritasi
 /plugin install video@claude-haritasi
 ```
-`video` yerine `tasarim`, `yazi`, `kodlama` veya `verimlilik` yazabilirsin.
+`video` yerine `tasarim`, `yazi`, `kodlama`, `verimlilik` veya `ajanlar` yazabilirsin.
 
 ### Yol 3 — Repoyu klonla
 ```bash
@@ -59,6 +60,7 @@ Komut ezberlemene gerek yok. Normal dille iste: *“Bu videodan reel yap”*, *�
 ### Sık sorulanlar
 - **Skill ile plugin farkı?** Skill, Claude'a bir işi öğreten talimat klasörüdür. Plugin, birkaç skill'i ve bağlantıyı tek kutuda kurar.
 - **Gerekenler?** Video paketi için ffmpeg, Python ve Node.js; taste skill için Node 22+ ve Chrome/Edge; awwwards/jury için Node 20+ ve Playwright.
+- **Ajanlar paketi nedir?** Skill değil, *alt ajan* (subagent) paketidir: `~/.claude/agents` klasörüne kurulur ve yalnızca Claude Code'da (bilgisayarda) çalışır. Kullanmak için iste: *“Frontend Developer ajanıyla bu bileşeni yap”* ya da `/agents` ile listeyi gör.
 - **Bir skill hata verirse?** Lütfen o skill'in kendi reposuna bildir (bağlantılar [TESEKKURLER.md](TESEKKURLER.md)'de). Bu repo destek vermez.
 
 ---
@@ -76,7 +78,7 @@ Type this in Claude Code:
 /plugin marketplace add kdrcrrh/claude-haritasi
 /plugin install video@claude-haritasi
 ```
-Replace `video` with `tasarim` (design), `yazi` (writing), `kodlama` (coding) or `verimlilik` (productivity).
+Replace `video` with `tasarim` (design), `yazi` (writing), `kodlama` (coding), `verimlilik` (productivity) or `ajanlar` (agents).
 
 ### Option 3 — Clone the repo
 ```bash
@@ -95,6 +97,7 @@ No commands to memorise. Ask in plain language: *“Make a reel from this video�
 ### FAQ
 - **Skill vs plugin?** A skill is a folder of instructions that teaches Claude a task. A plugin installs several skills and connections in one box.
 - **Requirements?** Video bundle: ffmpeg, Python and Node.js; taste skill: Node 22+ and Chrome/Edge; awwwards/jury: Node 20+ and Playwright.
+- **What is the ajanlar bundle?** It holds *subagents*, not skills: they install into `~/.claude/agents` and only work in Claude Code (desktop). Ask for one by name, e.g. *“Use the Frontend Developer agent to build this component”*, or list them with `/agents`.
 - **A skill throws an error?** Please report it to that skill's own repository (links in [TESEKKURLER.md](TESEKKURLER.md)). This repo does not provide support.
 
 ---

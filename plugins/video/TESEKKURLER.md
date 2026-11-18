@@ -17,6 +17,7 @@ All credit for the third-party skills in this repo belongs to the developers bel
 | shorts (claude-shorts) | Daniel Agrici | [AgriciDaniel/claude-shorts](https://github.com/AgriciDaniel/claude-shorts) | MIT | video |
 | karpathy-guidelines | multica-ai | [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) | MIT (repo README'sinde belirtildiği gibi / as stated in the repo README) | kodlama |
 | find-skills | Vercel | [vercel-labs/skills](https://github.com/vercel-labs/skills) | MIT | verimlilik |
+| 283 alt ajan / subagents (The Agency) | msitarzewski & AgentLand Contributors | [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | MIT | ajanlar |
 
 Her skill klasöründe orijinal `LICENSE` dosyası ve kaynağını gösteren `KAYNAK.txt` bulunur. Dosyalar orijinal hâliyle, değiştirilmeden alınmıştır.
 Each skill folder contains its original `LICENSE` and a `KAYNAK.txt` pointing to its source. Files are included unmodified.

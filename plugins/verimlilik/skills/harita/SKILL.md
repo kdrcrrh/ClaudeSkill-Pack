@@ -57,6 +57,7 @@ Ayrıntı, gereksinim ve örnek istemler: `references/katalog.md` (sadece gereki
 | Kendi skill'ini yazmak | "bana bir skill yap" | `anthropic-skills:skill-creator` | ✅ |
 | Ayar, izin, otomatik davranış | "her commit'ten önce test çalıştır" | `update-config` | ❌ |
 | Zamanlanmış/tekrarlı iş | "her sabah özet çıkar" | `schedule`, `loop` | 🟡 |
+| Bir uzmana devretmek (pazarlama, satış, güvenlik, oyun, finans…) | "SEO uzmanı gibi sitemi incele" | `ajanlar` paketindeki alt ajan (ör. `marketing-seo-specialist`); liste: `/agents` | ❌ |
 
 📱 ✅ telefonda/claude.ai'de çalışır · 🟡 kısmen (yerel dosya/Node gerektiren adımlar hariç) ·
 ❌ yalnızca bilgisayarda Claude Code'da.
@@ -64,6 +65,6 @@ Ayrıntı, gereksinim ve örnek istemler: `references/katalog.md` (sadece gereki
 ## Kurallar
 - Bir isteğe en fazla 2 skill öner; uzun liste dökme.
 - Kullanıcı "neler yapabilirsin" derse tabloyu kategori başlıklarıyla (Tasarım, Video, Yazı,
-  Kodlama, Belge & Veri, Verimlilik) 1'er satırlık özet olarak ver.
+  Kodlama, Belge & Veri, Verimlilik, Ajanlar) 1'er satırlık özet olarak ver.
 - Hesap/bağlantı gerektiren araçlarda (Canva, Figma, GitHub) bağlantı yoksa kullanıcıya `/mcp`
   veya Ayarlar > Connectors üzerinden bağlamasını söyle.

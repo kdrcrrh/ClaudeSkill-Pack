@@ -32,6 +32,11 @@
       "name": "verimlilik",
       "source": "./plugins/verimlilik",
       "description": "Verimlilik / Productivity: harita, find-skills"
+    },
+    {
+      "name": "ajanlar",
+      "source": "./plugins/ajanlar",
+      "description": "Ajanlar / Agents: The Agency (msitarzewski/agency-agents), 283 uzman alt ajan / 283 specialist subagents"
     }
   ]
 }
