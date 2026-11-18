@@ -31,7 +31,7 @@
     {
       "name": "verimlilik",
       "source": "./plugins/verimlilik",
-      "description": "Verimlilik / Productivity: harita, find-skills"
+      "description": "Verimlilik / Productivity: harita, find-skills, markitdown"
     },
     {
       "name": "ajanlar",

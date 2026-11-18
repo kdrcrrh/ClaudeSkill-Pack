@@ -47,8 +47,8 @@ Her satır: ne yapar · gereksinim · nasıl kurulur · örnek istem (TR / EN).
 - `anthropic-skills:pdf`, `docx`, `xlsx`, `pptx`, `docs` — dosya oluşturma/düzenleme.
 - `data:*` — analiz, SQL, grafik, dashboard, istatistik. `dataviz` — grafik tasarım kuralları.
 - `anthropic-skills:deep-research` — çok kaynaklı araştırma raporu.
-- **MarkItDown** (Microsoft, pip) — PDF/Word/Excel/PowerPoint → Markdown; okutmadan önce dönüştürmek token tasarrufu sağlar.
-  `python -m markitdown rapor.pdf > rapor.md`
+- **markitdown** (bu repo için yazıldı; Microsoft MarkItDown'u çağırır) — PDF/Word/Excel/PowerPoint/HTML/EPUB → Markdown, sonra yalnızca gereken bölümü okur; token tasarrufu sağlar. Gereksinim: Python 3.10+ ve `pip install "markitdown[all]"` (skill eksikse kurulumu önerir). Kurulum: `~/.claude/skills/markitdown`.
+  "Bu 200 sayfalık raporu özetle" / "Summarise this 200-page PDF"
 
 ## ⚡ Verimlilik
 - **find-skills** (Vercel) — `npx skills find <konu>` ile yeni skill arar.

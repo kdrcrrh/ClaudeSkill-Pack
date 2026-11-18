@@ -20,7 +20,7 @@ Open-source skills for design, video, writing, coding and productivity, gathered
 | 🎬 **video** | ghost-editor, shorts, hyperframes, hyperframes-cli, hyperframes-registry | — (bilgisayar / desktop) |
 | ✍️ **yazi** | voice-dna, prompt-master | ✓ |
 | 💻 **kodlama** | karpathy-guidelines | ✓ |
-| ⚡ **verimlilik** | harita, find-skills | ✓ |
+| ⚡ **verimlilik** | harita, find-skills, markitdown | çoğu / most |
 | 🤖 **ajanlar** | The Agency: 283 uzman alt ajan (tasarım, yazılım, pazarlama, satış, test, güvenlik…) / 283 specialist subagents | — (bilgisayar / desktop) |
 
 Her skill'in sahibi, lisansı ve bağlantısı: **[TESEKKURLER.md](TESEKKURLER.md)** · Owner, licence and link for every skill: **[TESEKKURLER.md](TESEKKURLER.md)**
@@ -59,7 +59,7 @@ Komut ezberlemene gerek yok. Normal dille iste: *“Bu videodan reel yap”*, *�
 
 ### Sık sorulanlar
 - **Skill ile plugin farkı?** Skill, Claude'a bir işi öğreten talimat klasörüdür. Plugin, birkaç skill'i ve bağlantıyı tek kutuda kurar.
-- **Gerekenler?** Video paketi için ffmpeg, Python ve Node.js; taste skill için Node 22+ ve Chrome/Edge; awwwards/jury için Node 20+ ve Playwright.
+- **Gerekenler?** Video paketi için ffmpeg, Python ve Node.js; taste skill için Node 22+ ve Chrome/Edge; awwwards/jury için Node 20+ ve Playwright; markitdown için Python 3.10+.
 - **Ajanlar paketi nedir?** Skill değil, *alt ajan* (subagent) paketidir: `~/.claude/agents` klasörüne kurulur ve yalnızca Claude Code'da (bilgisayarda) çalışır. Kullanmak için iste: *“Frontend Developer ajanıyla bu bileşeni yap”* ya da `/agents` ile listeyi gör.
 - **Bir skill hata verirse?** Lütfen o skill'in kendi reposuna bildir (bağlantılar [TESEKKURLER.md](TESEKKURLER.md)'de). Bu repo destek vermez.
 
@@ -96,7 +96,7 @@ No commands to memorise. Ask in plain language: *“Make a reel from this video�
 
 ### FAQ
 - **Skill vs plugin?** A skill is a folder of instructions that teaches Claude a task. A plugin installs several skills and connections in one box.
-- **Requirements?** Video bundle: ffmpeg, Python and Node.js; taste skill: Node 22+ and Chrome/Edge; awwwards/jury: Node 20+ and Playwright.
+- **Requirements?** Video bundle: ffmpeg, Python and Node.js; taste skill: Node 22+ and Chrome/Edge; awwwards/jury: Node 20+ and Playwright; markitdown: Python 3.10+.
 - **What is the ajanlar bundle?** It holds *subagents*, not skills: they install into `~/.claude/agents` and only work in Claude Code (desktop). Ask for one by name, e.g. *“Use the Frontend Developer agent to build this component”*, or list them with `/agents`.
 - **A skill throws an error?** Please report it to that skill's own repository (links in [TESEKKURLER.md](TESEKKURLER.md)). This repo does not provide support.
 

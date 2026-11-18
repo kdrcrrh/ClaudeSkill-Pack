@@ -35,7 +35,7 @@ The items below are **not included** in this repo. Some have licences that don't
 | Humanizer | blader | [blader/humanizer](https://github.com/blader/humanizer) | Kendi plugin'i / own plugin |
 | claude-code-setup | Anthropic | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | Resmî dizin / official directory |
 | Playwright MCP | Microsoft | [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp) | Resmî dizin / official directory |
-| MarkItDown | Microsoft | [microsoft/markitdown](https://github.com/microsoft/markitdown) | Python paketi / Python package (`pip install markitdown`) |
+| MarkItDown | Microsoft | [microsoft/markitdown](https://github.com/microsoft/markitdown) | Python paketi / Python package (`pip install markitdown`); `markitdown` skill'i onu çağırır / the `markitdown` skill calls it |
 
 ## Bu repo için yazılanlar · Written for this repo
-`voice-dna`, `prompt-master`, `harita`, kurulum script'leri / install scripts, `Claude-Haritasi.pdf` — MIT. Bkz. / See [DISCLAIMER.md](DISCLAIMER.md).
+`voice-dna`, `prompt-master`, `harita`, `markitdown`, kurulum script'leri / install scripts, `Claude-Haritasi.pdf` — MIT. Bkz. / See [DISCLAIMER.md](DISCLAIMER.md).
