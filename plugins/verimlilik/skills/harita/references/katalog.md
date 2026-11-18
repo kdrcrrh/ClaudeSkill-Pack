@@ -56,6 +56,10 @@ Her satır: ne yapar · gereksinim · nasıl kurulur · örnek istem (TR / EN).
 - **harita** (bu skill) — Doğru aracı seçer.
 - Yerleşik: `schedule`, `loop`, `update-config`, `explain-usage`.
 
+## 🔌 Ayrıca kurulan araçlar (bu repoda yok, kendi kaynağından kurulur)
+- **Headroom** (chopratejas/headroom, Apache-2.0) — Claude Code ile model arasına girip araç çıktılarını, logları ve dosyaları sıkıştırır; token ve maliyet düşer. Tasarruf iş türüne göre çok değişir. Gereksinim: Python. Kurulum: `pip install "headroom-ai[all]"` (veya `uv tool install --python 3.13 "headroom-ai[all]"`), sonra `headroom wrap claude`; geri almak için `headroom unwrap claude`. Claude Code plugin'i: `/plugin marketplace add chopratejas/headroom`.
+- **MemPalace** (MemPalace/mempalace, MIT) — Projeler ve geçmiş konuşmalar için yerel, kalıcı hafıza (MCP sunucusu + skill'ler). Gereksinim: Python (`uv tool install mempalace` veya `pip install mempalace`). Claude Code: `/plugin marketplace add MemPalace/mempalace`, sonra `/plugin install mempalace`. ⚠️ Yalnızca resmî kaynakları kullan (GitHub reposu, PyPI `mempalace`, mempalaceofficial.com); benzer adlı sahte siteler ve paketler var.
+
 ## 🤖 Ajanlar (alt ajanlar, yalnızca Claude Code)
 - **The Agency** (msitarzewski/agency-agents) — 283 uzman kişilik: tasarım, yazılım, pazarlama, ücretli reklam, satış, ürün, proje yönetimi, test, güvenlik, finans, sağlık, akademik, CBS, destek ve özel alanlar. Skill değil alt ajandır; Claude işi ilgili ajana devreder. Gereksinim yok. Kurulum: `~/.claude/agents/*.md` (`bash kur.sh ajanlar`). Dosya adı bölümle başlar: `design-*`, `engineering-*`, `marketing-*`, `sales-*`, `testing-*`, `security-*`…
   "Backend Architect ajanıyla API tasarla" / "Use the Reality Checker agent to review this launch"

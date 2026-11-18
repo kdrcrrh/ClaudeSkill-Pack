@@ -35,6 +35,8 @@ The items below are **not included** in this repo. Some have licences that don't
 | Humanizer | blader | [blader/humanizer](https://github.com/blader/humanizer) | Kendi plugin'i / own plugin |
 | claude-code-setup | Anthropic | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | Resmî dizin / official directory |
 | Playwright MCP | Microsoft | [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp) | Resmî dizin / official directory |
+| Headroom | Tejas Chopra (chopratejas) | [chopratejas/headroom](https://github.com/chopratejas/headroom) | Kendi plugin'i + Python paketi / own plugin + Python package (`pip install "headroom-ai[all]"`, `headroom wrap claude`) |
+| MemPalace | MemPalace Contributors | [MemPalace/mempalace](https://github.com/MemPalace/mempalace) | Kendi plugin'i + Python paketi / own plugin + Python package (`/plugin marketplace add MemPalace/mempalace`) |
 | MarkItDown | Microsoft | [microsoft/markitdown](https://github.com/microsoft/markitdown) | Python paketi / Python package (`pip install markitdown`); `markitdown` skill'i onu çağırır / the `markitdown` skill calls it |
 
 ## Bu repo için yazılanlar · Written for this repo

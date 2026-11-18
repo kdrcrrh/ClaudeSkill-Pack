@@ -52,6 +52,8 @@ Ayrıntı, gereksinim ve örnek istemler: `references/katalog.md` (sadece gereki
 | Paylaşılacak doküman, rapor | "proje planı dokümanı" | `anthropic-skills:docs` | ✅ |
 | Veri analizi, grafik, dashboard | "satış verimi analiz et" | `data:analyze`, `data:build-dashboard`, `dataviz` | ✅ |
 | Derin web araştırması, rapor | "pazarı araştır" | `anthropic-skills:deep-research` | ✅ |
+| Token/maliyet azaltmak (uzun loglar, büyük çıktılar) | "token harcamamı düşür" | Headroom (kurulu değil; `katalog.md` → kurulum) | ❌ |
+| Projeyi oturumlar arası hatırlamak | "geçen ay auth için ne karar vermiştik?" | MemPalace (`mempalace` plugin'i; kurulu değilse `katalog.md`) | ❌ |
 | PDF/Word'ü ucuza okutmak (token) | "200 sayfalık PDF'i özetle" | `markitdown` (MarkItDown ile önce Markdown'a çevirir) | ❌ |
 | Yeni skill bulmak | "X için skill var mı" | `find-skills` | ✅ |
 | Kendi skill'ini yazmak | "bana bir skill yap" | `anthropic-skills:skill-creator` | ✅ |
