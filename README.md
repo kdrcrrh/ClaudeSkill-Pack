@@ -16,7 +16,7 @@ Open-source skills for design, video, writing, coding and productivity, gathered
 
 | Paket / Bundle | İçindekiler / Contents | 📱 Telefon / Phone |
 |---|---|---|
-| 🎨 **tasarim** | frontend-design, canvas-design, theme-factory, algorithmic-art, brand-guidelines, ui-ux-pro-max, design-taste-frontend | çoğu / most |
+| 🎨 **tasarim** | frontend-design, canvas-design, theme-factory, algorithmic-art, brand-guidelines, ui-ux-pro-max, design-taste-frontend, awwwards, jury | çoğu / most |
 | 🎬 **video** | ghost-editor, shorts, hyperframes, hyperframes-cli, hyperframes-registry | — (bilgisayar / desktop) |
 | ✍️ **yazi** | voice-dna, prompt-master | ✓ |
 | 💻 **kodlama** | karpathy-guidelines | ✓ |
@@ -58,7 +58,7 @@ Komut ezberlemene gerek yok. Normal dille iste: *“Bu videodan reel yap”*, *�
 
 ### Sık sorulanlar
 - **Skill ile plugin farkı?** Skill, Claude'a bir işi öğreten talimat klasörüdür. Plugin, birkaç skill'i ve bağlantıyı tek kutuda kurar.
-- **Gerekenler?** Video paketi için ffmpeg, Python ve Node.js; taste skill için Node 22+ ve Chrome/Edge.
+- **Gerekenler?** Video paketi için ffmpeg, Python ve Node.js; taste skill için Node 22+ ve Chrome/Edge; awwwards/jury için Node 20+ ve Playwright.
 - **Bir skill hata verirse?** Lütfen o skill'in kendi reposuna bildir (bağlantılar [TESEKKURLER.md](TESEKKURLER.md)'de). Bu repo destek vermez.
 
 ---
@@ -94,7 +94,7 @@ No commands to memorise. Ask in plain language: *“Make a reel from this video�
 
 ### FAQ
 - **Skill vs plugin?** A skill is a folder of instructions that teaches Claude a task. A plugin installs several skills and connections in one box.
-- **Requirements?** Video bundle: ffmpeg, Python and Node.js; taste skill: Node 22+ and Chrome/Edge.
+- **Requirements?** Video bundle: ffmpeg, Python and Node.js; taste skill: Node 22+ and Chrome/Edge; awwwards/jury: Node 20+ and Playwright.
 - **A skill throws an error?** Please report it to that skill's own repository (links in [TESEKKURLER.md](TESEKKURLER.md)). This repo does not provide support.
 
 ---

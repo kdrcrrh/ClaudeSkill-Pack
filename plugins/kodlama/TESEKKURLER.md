@@ -11,6 +11,7 @@ All credit for the third-party skills in this repo belongs to the developers bel
 | frontend-design, canvas-design, theme-factory, algorithmic-art, brand-guidelines | Anthropic | [anthropics/skills](https://github.com/anthropics/skills) | Apache-2.0 | tasarim |
 | ui-ux-pro-max | Next Level Builder | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | MIT | tasarim |
 | design-taste-frontend (Taste Skill) | Leonxlnx | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | MIT · görseller kendi `credits.json` dosyalarında / images credited in their `credits.json` (CC0, CC BY, CC BY-SA, Unsplash) | tasarim |
+| awwwards, jury | juliobsz | [juliobsz/skills](https://github.com/juliobsz/skills) | MIT | tasarim |
 | hyperframes, hyperframes-cli, hyperframes-registry | HeyGen | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | Apache-2.0 | video |
 | ghost-editor | kurbaitaev | [kurbaitaev/ghost-editor](https://github.com/kurbaitaev/ghost-editor) | MIT · fontlar / fonts SIL OFL 1.1 · sesler / sounds CC0 | video |
 | shorts (claude-shorts) | Daniel Agrici | [AgriciDaniel/claude-shorts](https://github.com/AgriciDaniel/claude-shorts) | MIT | video |

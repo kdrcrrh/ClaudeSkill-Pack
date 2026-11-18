@@ -11,7 +11,7 @@
     {
       "name": "tasarim",
       "source": "./plugins/tasarim",
-      "description": "Tasarım / Design: frontend-design, canvas-design, theme-factory, algorithmic-art, brand-guidelines, ui-ux-pro-max, design-taste-frontend"
+      "description": "Tasarım / Design: frontend-design, canvas-design, theme-factory, algorithmic-art, brand-guidelines, ui-ux-pro-max, design-taste-frontend, awwwards, jury"
     },
     {
       "name": "video",
@@ -34,4 +34,3 @@
       "description": "Verimlilik / Productivity: harita, find-skills"
     }
   ]
-}

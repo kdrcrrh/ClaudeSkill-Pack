@@ -24,6 +24,8 @@ Ayrıntı, gereksinim ve örnek istemler: `references/katalog.md` (sadece gereki
 | Niyet / Intent | Örnek istek | Kullan | 📱 |
 |---|---|---|---|
 | Web sitesi, landing page, arayüz | "kafem için site yap" | `design-taste-frontend` → `frontend-design` | 🟡 |
+| Ödül kalitesinde, animasyonlu/WebGL site, portfolyo | "bana etkileyici bir portfolyo yap" | `awwwards` | ❌ |
+| Bir siteyi puanlamak, eleştirmek (Awwwards jürisi gibi) | "bu siteyi puanla" | `jury` | ❌ |
 | UI/UX kararı, renk, font, tasarım sistemi | "SaaS paneli için palet öner" | `ui-ux-pro-max` | 🟡 |
 | Poster, kapak, statik görsel (PNG/PDF) | "konser posteri tasarla" | `canvas-design` | ✅ |
 | Kod ile sanat, generatif görsel | "akış alanı çiz" | `algorithmic-art` | ✅ |

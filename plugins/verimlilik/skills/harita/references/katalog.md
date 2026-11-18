@@ -5,6 +5,10 @@ Her satır: ne yapar · gereksinim · nasıl kurulur · örnek istem (TR / EN).
 ## 🎨 Tasarım
 - **design-taste-frontend** (Leonxlnx/taste-skill) — "Yapay zekâ yapmış gibi" görünmeyen kurumsal web siteleri; tarayıcıda kontrol eder. Gereksinim: Node 22+, Chrome/Edge. Kurulum: `~/.claude/skills/design-taste-frontend`. Not: iş bitince yerel `gate.mjs` kontrolü çalışır.
   "Diş kliniği için tek sayfalık site yap" / "Build a landing page for a dental clinic"
+- **awwwards** (juliobsz/skills) — Tek cümlelik istekten ödül kalitesinde site: konsept, sanat yönetimi, tipografi, animasyon, WebGL, sayfa geçişleri; sonra gerçek tarayıcıda görsel kontrol. Next.js (varsayılan) veya Astro. Gereksinim: Node 20+, projede Playwright. Kurulum: `~/.claude/skills/awwwards`.
+  "Bana portfolyo yap, adım Ayşe" / "Make me a portfolio, my name is Julio"
+- **jury** (juliobsz/skills) — Herhangi bir siteyi Awwwards jürisi gibi puanlar: masaüstü/telefon ekran görüntüleri, LCP/CLS/FPS, erişilebilirlik (axe), SEO; kodu görmeyen bir eleştirmen puan verir ve sıralı düzeltme listesi çıkarır. Siteyi değiştirmez. Gereksinim: Node 20+, Playwright. Kurulum: `~/.claude/skills/jury`.
+  "Bu siteyi puanla: example.com" / "Score this site like an Awwwards jury"
 - **frontend-design** (Anthropic) — Arayüzde estetik yön, tipografi, şablon dışı tercihler. Gereksinim yok.
   "Bu paneli daha özgün göster" / "Make this dashboard look less generic"
 - **ui-ux-pro-max** (nextlevelbuilder) — 80 stil, 192 palet, 74 font eşleşmesi, UX kuralları; yerel Python arama script'i. Gereksinim: Python.
